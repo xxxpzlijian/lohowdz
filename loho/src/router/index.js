@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import gouwuce from '@/components/gouwuce'
-import list from '@/components/list'
-import denglu from '@/components/denglu'
-import didianye from '@/components/didianye'
+import Index from '@/components/Index'
+import Cart from '@/components/Cart'
+import List from '@/components/List'
+import Login from '@/components/Login'
+import Address from '@/components/Address'
+import Regist from '@/components/Regist'
 
 Vue.use(Router)
 
@@ -12,28 +13,33 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Index',
+      component: Index
     },
     {
-      path: '/go',
-      name: 'gouwuce',
-      component: gouwuce
+      path: '/cart',
+      name: 'Cart',
+      component: Cart
     },
     {
       path: '/list',
-      name: 'list',
-      component: list
+      name: 'List',
+      component: List
     },
     {
-      path: '/den',
-      name: 'denglu',
-      component: denglu
+      path: '/login',
+      name: 'Login',
+      component: Login
     },
     {
-      path: '/di',
-      name: 'didianye',
-      component: didianye
+      path: '/address',
+      name: 'Address',
+      component: Address
+    },
+    {
+      path: '/regist',
+      name: 'Regist',
+      component: Regist
     }
 
   ]
