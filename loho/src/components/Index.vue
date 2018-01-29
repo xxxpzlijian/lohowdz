@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="index">
      <div class="header_1">
 
      </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Index',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

@@ -1,11 +1,11 @@
 <template>
-  <div class="list">
+  <div class="goodslist">
       <h1>列表页</h1>
   </div>
 </template>
 <script>
 export default {
-  name : 'list',
+  name : 'GoodsList',
   data (){
       return {
 

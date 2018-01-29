@@ -1,12 +1,12 @@
 <template>
-  <div class="gouwuce">
+  <div class="cart">
       <h1>购物车</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name : 'gouwuce',
+  name : 'Cart',
   data(){
       return {
           
