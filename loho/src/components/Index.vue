@@ -1,7 +1,7 @@
 <template>
   <div class="index">
      <div class="header_1">
-
+				<router-link to='/goodslist'>商品</router-link>
      </div>
      <div class="main_1"></div>
      <div class="footer"></div>
@@ -21,7 +21,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello{
+.index{
   display:flex;
   height:100%;
   width:100%;
