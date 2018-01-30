@@ -3,6 +3,7 @@
      <ul>
          <li v-for="item in floor">
              <h2></h2>
+             <div></div>
          </li>
      </ul>
   </div>
