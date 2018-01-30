@@ -1,8 +1,7 @@
 <template>
   <div class="header">
       <div class="header-left">
-          <a href="javascript:void(0)">
-              <span>北京市</span>
+          <a href="javascript:history.go(-1)">
               <i class="iconfont icon-moreunfold"></i>
           </a>
       </div>
@@ -64,7 +63,6 @@
         margin: auto;
         width: 72px;
         height: 31px;
-        background: url(../../assets/img/logo.head.png) center no-repeat;
         background-size: contain;
     }
     .header-right{

@@ -4,10 +4,13 @@
     <div class="content">
       <Swiper />
       <Nav />
-      <Ad />  
+      <Ad />
+      <Floor /> 
+      <Lazyload />
+      <Bottom />
     </div>
     <Footer></Footer>
-    </div>
+  </div>
 </template>
 
 
@@ -17,7 +20,10 @@ import Header from './index/Header'
 import Swiper from './index/Swiper'
 import Nav from './index/Nav'
 import Ad from './index/Ad'
+import Floor from './index/Floor'
+import Lazyload from './index/Lazyload'
 import Footer from './index/Footer'
+import Bottom from './index/Bottom'
 export default {
   name: 'Index',
   components:{
@@ -25,14 +31,13 @@ export default {
     Footer,
     Swiper,
     Nav,
-    Ad
+    Ad,
+    Floor,
+    Lazyload,
+    Bottom
   }
 }
 </script>
-
-
-
-
 <style>
      @import '../assets/css/iconfont/iconfont.css';
      @import '../assets/css/style.css';
@@ -48,5 +53,3 @@ export default {
        padding-bottom: 0.54rem;
      } 
 </style>
-
-

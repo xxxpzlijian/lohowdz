@@ -7,8 +7,10 @@
 <script>
 
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
 
+  }
 }
 </script>
 
@@ -17,13 +19,5 @@ export default {
        width:100%;
        height:100%;
      } 
-</style>
-
-<style>
-@import './assets/css/style.css';
-
-
-
-
 
 </style>

@@ -23,7 +23,6 @@ export default {
   mounted(){
       var that=this
     axios.get('/index').then(function (res) {
-        console.log(res);
         that.list=res.data.result.cates;
     }).catch(function (error) {
          console.log(error);

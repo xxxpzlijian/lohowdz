@@ -55,7 +55,7 @@
         display:flex;
         justify-content:space-around;
         align-items:center;
-        background: #ccc;
+        background: #fff;
     }
     .footer .box{
         display:flex;

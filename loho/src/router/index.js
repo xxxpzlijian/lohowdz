@@ -8,6 +8,7 @@ import Address from '@/components/Address'
 import Regist from '@/components/Regist'
 import Shop from '@/components/Shop'
 import Service from '@/components/Service'
+import Detail from '@/components/Detail'
 
 Vue.use(Router)
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/shop',
       name: 'Shop',
       component: Shop
+    },
+    {
+      path: '/detail/:fid',
+      name: 'Detail',
+      component: Detail
     }
   ]
 })
