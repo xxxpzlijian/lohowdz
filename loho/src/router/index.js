@@ -6,6 +6,8 @@ import GoodsList from '@/components/GoodsList'
 import Login from '@/components/Login'
 import Address from '@/components/Address'
 import Regist from '@/components/Regist'
+import Shop from '@/components/Shop'
+import Service from '@/components/Service'
 
 Vue.use(Router)
 
@@ -40,7 +42,16 @@ export default new Router({
       path: '/regist',
       name: 'Regist',
       component: Regist
+    },
+    {
+      path: '/service',
+      name: 'Service',
+      component: Service
+    },
+    {
+      path: '/shop',
+      name: 'Shop',
+      component: Shop
     }
-
   ]
 })

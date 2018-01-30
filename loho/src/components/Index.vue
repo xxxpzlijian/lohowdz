@@ -1,48 +1,48 @@
 <template>
-  <div class="index">
-     <div class="header_1">
-
-     </div>
-     <div class="main_1"></div>
-     <div class="footer"></div>
+  <div id="index">
+    <Header></Header>
+    <div class="content">
+      <Swiper />
+      <Nav />
+      <Ad />  
+    </div>
+    <Footer></Footer>
   </div>
 </template>
 
+
 <script>
+import Header from './index/Header'
+import Swiper from './index/Swiper'
+import Nav from './index/Nav'
+import Ad from './index/Ad'
+import Footer from './index/Footer'
 export default {
   name: 'Index',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+  components:{
+    Header,
+    Footer,
+    Swiper,
+    Nav,
+    Ad
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.hello{
-  display:flex;
-  height:100%;
-  width:100%;
-  flex-direction: column;
-}
-.header_1{
-  display:flex;
-  height:0.6rem;
-  width:100%;
-  background:green;
-}
-.main_1{
-  display:flex;
-  flex : 1;
-  
-  background:yellow
-}
-.footer{
-  display:flex;
-  height:0.6rem;
-  width:100%;
-  background:red;
-}
+
+
+<style>
+     @import '../assets/css/iconfont/iconfont.css';
+     @import '../assets/css/style.css';
+     #index{
+       width:100%;
+       height:100%
+     }
+     .content{
+       background: #F2F2F2;
+       overflow: hidden;
+       position: relative;
+       padding-top: 0.6rem;
+       padding-bottom: 0.54rem;
+     } 
 </style>
