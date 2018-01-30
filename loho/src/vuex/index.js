@@ -9,16 +9,16 @@ var state = {
 	cart: []
 }
 
-// 持久化：从本地取出数据
-if(localStorage.getItem("data")) {
-	var data = JSON.parse(localStorage.getItem("data"));
-	state = data;
-}
+// // 持久化：从本地取出数据
+// if(localStorage.getItem("data")) {
+// 	var data = JSON.parse(localStorage.getItem("data"));
+// 	state = data;
+// }
 
-function saveTolocal(state) {
-	// 持久化：保存数据
-	localStorage.setItem("data", JSON.stringify(state));
-}
+// function saveTolocal(state) {
+// 	// 持久化：保存数据
+// 	localStorage.setItem("data", JSON.stringify(state));
+// }
 
 const mutations = {
 	setUserName: function(state, username) {
