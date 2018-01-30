@@ -2,40 +2,42 @@
     width:100%;
     height:100%;
     display:flex;
-    background:green;
     flex-direction: column ;
     font-size:20px;
 }
 .header_1{
     width:100%;
     height:0.6rem;
-    background:red;
+}
+.footer{
+    width:100%;
+    height:0.6rem;
 }
 .conter{
     flex:1;
-    background:yellow;
+    background:#ccc;
 } 
 .conter img{
    width:100%;
 }
+
 .listbiao{
     height:0.5rem;
-    background:blue;
+    background:#fff;
 }
 .listbiao p:nth-child(1){
     width:50%;
     height:100%;
-    background:orange;
     float:left;
 }
 .listbiao p:nth-child(2){
     width:50%;
     height:100%;
-    background:rgb(50, 0, 143);
     float:left;
 }
 .listbiao p a{
     display:block;
+    color:#000;
     font-size:14px;
     width:100%;
     height:0.5rem;
@@ -44,35 +46,47 @@
 
 }
 .listshu{
+    margin-top:0.2rem;
     display:flex;
     flex-direction: column;
-    width:95%;
-    margin-left:5%;
+    width:100%;
     height:1.5rem;
+    background:#fff;
 }
 .listshu p{
     display:flex;
-    width:100%;
+    margin-left:2%;
+    border-bottom:1px solid #ccc;
+    width:96%;
     height:0.5rem;
-    background:pink;
 }
 .listshu p:nth-child(1) span{
+    font-size:24px;
+    border-bottom:1px solid #ccc;
+    text-align:center;
+    line-height:0.5rem;
     display:block;
     width:0.5rem;
     height:0.5rem;
-    background:#000;
+    background:rgb(255, 255, 255);
 }
-.listshu p:nth-child(1) input{
+.listshu p:nth-child(1) input{ 
+    outline:none;  
     flex:1;
     border:0;
 }
 .listshu p:nth-child(2) span{
+    border-bottom:1px solid #ccc;
     display:block;
+    text-align:center;
+    line-height:0.5rem;
+    font-size:0.24rem;
     width:0.5rem;
     height:0.5rem;
-    background:#000;
+    background:rgb(255, 255, 255);
 }
 .listshu p:nth-child(2) input{
+    outline:none;
     width:52%;
     border:0;
 }
@@ -82,13 +96,31 @@
     flex:1;
     height:0.5rem;
 }
+.t1{
+    height:100%;
+}
+.btn{
+    background:rgb(228, 58, 58)!important;
+    text-align:center;
+    line-height:0.5rem;
+    font-size:14px;
+    color:#fff;
+    
+}
+.listshu p:nth-child(3){
+    border-bottom:1px solid #ccc;
+}
 .listshu p:nth-child(3) span{
     display:block;
+    font-size:24px;
+    text-align:center;
+    line-height:0.5rem;
     height:0.5rem;
     width:0.5rem;
-    background:#000;
+    background:rgb(255, 255, 255);
 }
 .listshu p:nth-child(3) input{
+    outline:none;
     width:52%;
     height:0.5rem;
     border:0;
@@ -98,4 +130,29 @@
     background:#000;
     flex:1;
     height:0.5rem;
+}
+h5{
+    width:100%;
+    height:0.24rem;
+   
+}
+h5 a{
+    font-size:14px;
+    color:rgb(61, 59, 59);
+    margin-left:30px;
+    line-height:50px;
+}
+.footer{
+    display:flex;
+    
+}
+.footer p{
+    width:50%;
+    height:0.6rem;
+    text-align:center;
+    line-height:0.6rem;
+    font-size:14px;
+}
+.footer p:nth-child(1){
+    border-right:1px solid #888;
 }

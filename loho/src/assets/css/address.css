@@ -1,0 +1,94 @@
+.address{
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    background:#ccc;
+}
+.header_1{
+    width:100%;
+    height:0.6rem;
+    background:#fff;
+    border-bottom:1px solid rgb(179, 173, 173);
+}
+.dangq{
+    display:flex;
+    width:100%;
+    height:0.48rem;
+    margin-top:10px;
+    background:#fff;
+    border-bottom:1px solid rgb(179, 173, 173);
+    border-top:1px solid rgb(179, 173, 173);
+}
+.dangq span{
+    display:block;
+    width:0.48rem;
+    height:0.48rem;
+    
+    font-size:24px;
+    text-align:center;
+    line-height:0.48rem;
+}
+.dangq i{
+    display:block;
+    width:0.7rem;
+    font-size:14px;
+    text-align:center;
+    line-height:0.48rem;
+    height:0.48rem;
+    
+}
+.dangq p{
+    display:flex;
+    justify-content: space-between;  
+    flex :1 ;
+   
+    line-height:0.48rem;
+
+}
+.rem{
+    height:0.4rem;
+    width:100%;
+    margin-top:10px;
+    font-size:14px;
+    padding-left:15px;
+    line-height:0.4rem;
+    border-top:1px solid rgb(179, 173, 173);
+    border-bottom:1px solid rgb(179, 173, 173);
+    background:#fff;
+}
+.chengsi{
+    display:flex;
+    height:0.5rem;
+    background:#fff;
+    border-bottom:1px solid rgb(179,173,173)
+}
+.chengsi p{
+    flex :1 ;
+    text-align:center;
+    line-height:0.5rem;
+    font-size:14px;
+
+}
+.quanb{
+    margin-top:10px;
+    width:100%;
+    background:#fff;
+}
+.quanb p{
+    height:0.4rem;
+    font-size:14px;
+    padding-left:15px;
+    line-height:0.4rem;
+    border-bottom:1px solid rgb(173, 169, 169)    
+}
+.list{
+    display:flex;
+    flex-wrap:wrap;
+}
+.list li{
+    width:1.25rem;
+    height:0.6rem;
+    text-align:center;
+    line-height:0.6rem;
+    border:1px solid rgb(228, 207, 207) ;
+}
