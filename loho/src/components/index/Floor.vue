@@ -2,7 +2,7 @@
   <div class="floor">
      <ul>
          <li v-for="item in floor">
-             
+             <h2></h2>
          </li>
      </ul>
   </div>
