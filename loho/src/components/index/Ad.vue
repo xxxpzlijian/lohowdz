@@ -18,9 +18,9 @@ export default {
   mounted(){
       var that=this
     axios.get('/index').then(function (res) {
-        console.log(res);
+    
         that.ad=res.data.result.ad;
-        console.log(that.ad);
+    
     }).catch(function (error) {
          console.log(error);
        });
