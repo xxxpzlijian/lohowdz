@@ -1,7 +1,11 @@
 <template>
   <div class="index">
      <div class="header_1">
+<<<<<<< HEAD
        <router-link to='/login'>登录</router-link>
+=======
+				<router-link to='/goodslist'>商品</router-link>
+>>>>>>> 3f869622374a6553f6e6dc1af816238d606010c7
      </div>
      <div class="main_1"></div>
      <div class="footer"></div>
@@ -22,7 +26,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .index{
+<<<<<<< HEAD
   font-size:20px;
+=======
+>>>>>>> 3f869622374a6553f6e6dc1af816238d606010c7
   display:flex;
   height:100%;
   width:100%;
