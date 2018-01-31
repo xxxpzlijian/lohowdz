@@ -15,19 +15,19 @@
 	          </router-link>
 	      </div>
 	      <div>
-	          <router-link class="box" to="/purchase">
+	          <router-link class="box" to="/login">
 	            <span><i class="iconfont icon-account"></i></span>
 	            <span>会员中心</span>
 	          </router-link>
 	      </div>
 	      <div>
-	          <router-link class="box" to="/service">
+	          <router-link class="box" to="/cart">
 	            <span><i class="iconfont icon-cart"></i></span>
 	            <span>购物车</span>
 	          </router-link>
 	      </div>
 	      <div>
-	          <router-link class="box" to="/shop">
+	          <router-link class="box" to="/service">
 	            <span><i class="iconfont icon-iconfontfuwushichang"></i></span>
 	            <span>在线咨询</span>
 	          </router-link>
@@ -216,4 +216,28 @@ ul li p{
 	margin-left: 0.03rem;
 	
 }
+ 	.toplist{
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0.44rem;
+        z-index: 99;
+        height:0.5rem;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background: #fff;
+    }
+    .toplist .box{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items:center;
+        font-size:10px;
+        color:#555;
+        font-weight:600;
+    }
+    .toplist .box span i{
+        font-size:24px!important;
+    }
 </style>

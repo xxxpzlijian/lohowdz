@@ -6,9 +6,9 @@
       <Nav />
       <Ad />
       <Floor /> 
-      <Lazyload />
-      <Bottom />
+      <Lazyload />      
     </div>
+    <Bottom />
     <Footer></Footer>
   </div>
 </template>
@@ -51,7 +51,7 @@ export default {
 <style scoped>
 @import '../assets/css/iconfont/iconfont.css';
 	@import '../assets/css/style.css';
-     /*#index{
+     #index{
        width:100%;
        height:100%
      }
@@ -61,7 +61,7 @@ export default {
        position: relative;
        padding-top: 0.6rem;
        padding-bottom: 0.54rem;
-     }*/
+     }
 .index{
   font-size:20px;
   display:flex;
