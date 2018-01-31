@@ -38,10 +38,20 @@ export default {
   }
 }
 </script>
-<style>
-     @import '../assets/css/iconfont/iconfont.css';
-     @import '../assets/css/style.css';
-     #index{
+
+
+
+
+
+
+
+      
+
+/* Add "scoped" attribute to limit CSS to this component only */
+<style scoped>
+@import '../assets/css/iconfont/iconfont.css';
+	@import '../assets/css/style.css';
+     /*#index{
        width:100%;
        height:100%
      }
@@ -51,5 +61,31 @@ export default {
        position: relative;
        padding-top: 0.6rem;
        padding-bottom: 0.54rem;
-     } 
+     }*/
+.index{
+  font-size:20px;
+  display:flex;
+  height:100%;
+  width:100%;
+  flex-direction: column;
+}
+.header_1{
+  display:flex;
+  height:0.6rem;
+  width:100%;
+  background:green;
+}
+.main_1{
+  display:flex;
+  flex : 1;
+  
+  background:yellow
+}
+.footer{
+  display:flex;
+  height:0.6rem;
+  width:100%;
+  background:red;
+}
+
 </style>

@@ -9,6 +9,7 @@ import Regist from '@/components/Regist'
 import Shop from '@/components/Shop'
 import Service from '@/components/Service'
 import Detail from '@/components/Detail'
+import Purchase from '@/components/Purchase'
 
 Vue.use(Router)
 
@@ -48,6 +49,11 @@ export default new Router({
       path: '/service',
       name: 'Service',
       component: Service
+    },
+    {
+      path: '/purchase',
+      name: 'Purchase',
+      component: Purchase
     },
     {
       path: '/shop',

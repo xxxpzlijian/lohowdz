@@ -2,7 +2,7 @@
   <div class="nav">
       <ul>
           <li v-for="item in list">
-              <router-link to="/">
+              <router-link to="/goodslist">
                   <p><img :src="item.pic" alt=""></p>
                   <span>{{item.tag}}</span>
               </router-link>

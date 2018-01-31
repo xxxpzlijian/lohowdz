@@ -9,15 +9,12 @@
 export default {
   name: 'App',
   components:{
-
-  }
+	}
 }
 </script>
 
 <style>
-     #app{
-       width:100%;
-       height:100%;
-     } 
-
+@import './assets/css/style.css';
+   
 </style>
+

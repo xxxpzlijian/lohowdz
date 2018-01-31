@@ -36,6 +36,8 @@
 </script>
 
 <style scoped>
+	@import '../../assets/css/iconfont/iconfont.css';
+	@import '../../assets/css/style.css';
     .header{
         background: #fff;
         display: flex;

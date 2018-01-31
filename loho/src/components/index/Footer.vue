@@ -45,6 +45,8 @@
 </script>
 
 <style scoped>
+@import '../../assets/css/iconfont/iconfont.css';
+@import '../../assets/css/style.css';	
     .footer{
         width: 100%;
         position: fixed;
