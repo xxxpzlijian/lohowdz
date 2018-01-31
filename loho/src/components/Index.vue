@@ -7,8 +7,9 @@
       <Ad />
       <Floor /> 
       <Lazyload />
-      <Bottom />
+      
     </div>
+    <Bottom />
     <Footer></Footer>
   </div>
 </template>
@@ -51,17 +52,17 @@ export default {
 <style scoped>
 @import '../assets/css/iconfont/iconfont.css';
 	@import '../assets/css/style.css';
-     /*#index{
+     #index{
        width:100%;
        height:100%
      }
      .content{
        background: #F2F2F2;
+       min-height: 800px;
        overflow: hidden;
        position: relative;
        padding-top: 0.6rem;
-       padding-bottom: 0.54rem;
-     }*/
+     }
 .index{
   font-size:20px;
   display:flex;

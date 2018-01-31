@@ -24,13 +24,6 @@
                         </li>
                    
                 </ul>
-               
-                <!-- <router-link to="/">
-                <li class="floor-right"></li>
-                </router-link>
-                <router-link to="">
-                <li class="floor-left"></li>
-                </router-link> -->
             </li>
             
         </ul>
@@ -49,7 +42,6 @@ export default {
   mounted(){
       var that=this
     axios.get('/index').then(function (res) {
-        that.popularity=res.data.result.popular;
         that.list=res.data.result.classify;
     }).catch(function (error) {
          console.log(error);
