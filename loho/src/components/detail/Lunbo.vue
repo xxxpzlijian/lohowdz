@@ -7,6 +7,7 @@
             </div>
         </div>
     </div>
+    <div class="gradient"></div>
   </div>
 </template>
 <script>
@@ -19,13 +20,11 @@ export default {
           detail:[]
       }
   },
-  mounted(){
-        console.log(this);
+  activated(){
 		console.log(this.$route.params.fid);
 		var id = this.$route.params.fid;
 		axios.get(`/goods/${id}`)
 		.then((res)=>{
-            console.log(res);
             this.detail = res.data.result.info.pics;
            this.$nextTick(function(){
                var mySwiper = new Swiper('.swiper-container', {
@@ -37,16 +36,27 @@ export default {
 	}
 }
 
-</script>
+</script> 
 <style scoped>
    @import '../../assets/css/swiper.min.css';
    .swiper-slide{
-       height:1.875rem;
+       height:2.2rem!important;
        width:100%
    }
    .swiper-slide img{
        width:100%;
-       height:100%;
+       height:auto;
        border:none;
+       padding:0.4rem 0 0;
+       display: inline-block;
+       vertical-align: middle;
+   }
+   .swiper .gradient{
+       height:0.8rem;
+        background:linear-gradient(bottom,#c8c8c8,rgba(255,255,255,0));
+   }
+   .swiper{
+       margin-bottom:0.1rem;
+       background:#fff;
    }
 </style>

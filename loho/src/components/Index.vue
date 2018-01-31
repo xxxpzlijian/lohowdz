@@ -6,7 +6,7 @@
       <Nav />
       <Ad />
       <Floor /> 
-      <Lazyload />      
+      <Lazyload />
     </div>
     <Bottom />
     <Footer></Footer>
@@ -57,10 +57,10 @@ export default {
      }
      .content{
        background: #F2F2F2;
+       min-height: 800px;
        overflow: hidden;
        position: relative;
        padding-top: 0.6rem;
-       padding-bottom: 0.54rem;
      }
 .index{
   font-size:20px;
