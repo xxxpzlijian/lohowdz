@@ -1,6 +1,35 @@
 <template>
   <div class="shop">
-      <h1>这是附近店铺页面</h1>
+      <div class="header">
+          <div class="header-left">
+          <router-link to="/">
+              <i class="iconfont icon-moreunfold"></i>
+          </router-link>
+      </div>
+      <div class="header-logo"></div>
+      <div class="header-right">
+          <ul>
+              <li>
+                  <a href="/cart/">
+                    <i class="iconfont icon-cart"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="/user/index.do">
+                    <i class="iconfont icon-account"></i>
+                  </a>
+              </li>
+          </ul>
+      </div>
+      </div>
+      <div class="list">
+          <p><a href="#">列表</a></p>
+          <p><a href="#" id="nobor">地图</a></p>
+      </div>
+      <div class="tyd">
+          <p>共29家体验店(全国共家)</p>
+          <span></span>
+      </div>
   </div>
 </template>
 
@@ -16,7 +45,5 @@ export default {
 </script>
 
 <style scoped>
-    h1{
-        background:red;
-    }
+@import '../assets/css/shop.css';
 </style>

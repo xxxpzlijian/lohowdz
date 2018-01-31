@@ -1,6 +1,27 @@
 <template>
   <div class="login">
-      <div class="header_1">头部</div>
+     <div class="header">
+          <div class="header-left">
+          <router-link to="/">
+              <i class="iconfont icon-moreunfold"></i>
+          </router-link>
+      </div>
+      <div class="header-logo"></div>
+      <div class="header-right">
+          <ul>
+              <li>
+                  <a href="/cart/">
+                    <i class="iconfont icon-cart"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="/user/index.do">
+                    <i class="iconfont icon-account"></i>
+                  </a>
+              </li>
+          </ul>
+      </div>
+      </div>
       <div class="conter">
           <img src="/assets/images/login-banner.png" alt="">
           <div class="listbiao">

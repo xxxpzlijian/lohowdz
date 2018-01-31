@@ -1,0 +1,90 @@
+.shop{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    border-bottom:1px solid rgb(165, 163, 163);
+    background:red;
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    background:#fff;
+    height:0.5rem;
+    border-bottom:1px solid rgb(165, 163, 163);
+}
+.list p{
+    width:50%;
+    height:0.5rem;
+}
+.list p a{
+    display:block;
+    width:100%;
+    font-size:14px;
+    text-align:center;
+    margin-top:0.15rem;
+    border-right:1px solid #888;
+}
+#nobor{
+    border:none;
+}
+.tyd{
+    width:100%;
+    margin-top:10px;
+    background:#fff;
+    height:0.43rem;
+    
+}
+/* .tyd p{
+
+} */
+
+.header{
+    background: #fff;
+    display: flex;
+    width: 100%;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    z-index: 99;
+}
+.header-left{
+    float:left;
+}
+.header-left a{
+    width:1.2rem;
+    display:block;
+    color:#333;
+    font-size:14px;
+}
+.header-left a i{
+    margin-left:20px;
+    font-size:18px!important;
+}
+.header-logo{
+    margin: auto;
+    width: 72px;
+    height: 31px;
+    background: url(../../assets/img/logo.head.png) center no-repeat;
+    background-size: contain;
+}
+.header-right{
+    float: right !important;
+    width: auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+.header-right ul{
+    width:1.2rem;
+    height:100%;
+}
+.header-right ul li{
+    float:left;
+    width:0.6rem;
+    text-align:center;
+}
+.header-right ul li a i{
+    font-size:0.22rem!important;
+    font-weight:600;
+    color:#333;
+}
